@@ -1,0 +1,127 @@
+ul,li,body{
+    padding:0;margin:0;list-style: none;
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    background: #f5f5f5;
+    /*background:url("111.jpg");*/
+    /*background-size: 100% auto;*/
+    box-sizing: border-box;
+}
+.clear{
+    clear:both;
+}
+.container{
+    font-family: 微软雅黑;
+    /*margin-top:50px;*/
+    width:80%;height:auto;
+    border:1px solid #444444;
+    /*padding:20px;*/
+    margin:0 auto;
+    box-shadow: 0 0 10px black;
+    /*background:url("111.jpg");*/
+    /*background-size: 85% auto;*/
+
+}
+.title{
+    font-family: "冬青黑体简体中文 W6";
+    line-height: 40px;
+    padding:10px;
+    font-size: 30px;
+    width:150px;
+    margin:0 auto;
+}
+.left{
+    width:20%;height:550px;
+    background: #42435a;
+    float:left;
+    font-size: 14px;
+    /*border:1px solid #bdb629;*/
+}
+.menu{
+    width:100%;
+    /*height:500px;*/
+    /*height:30px;*/
+    text-align: center;
+    line-height: 40px;
+    /*background:#42435a;*/
+    position: relative;
+    z-index:2;cursor: pointer;
+
+}
+/*.linek{*/
+    /*width:20px;*/
+    /*height:20px;*/
+    /*border:1px solid black;*/
+/*}*/
+
+.menu .parent{
+    width:100%;height:100%;
+    /*float:left;*/
+}
+.menu .parent div{
+    width:100%;height:100%;
+    /*color: #f3f3f3;*/
+    color:#D8D8D8;
+    border-top: 1px solid #5b5c80;
+}
+.menu .parent .son{
+    width:100%;
+}
+.parent:hover{
+    background: #fb404b;
+}
+.box{
+    width:80%;height:550px;position: relative;
+    float:right;
+    border:10px solid #42435a;
+    /*background:url("111.jpg");*/
+    /*background-size: 900px auto;*/
+}
+.box .copy{
+    position: absolute;left:0;top:0;z-index:1;
+    width:100%;height:100%;
+}
+.box canvas{
+    width:100%;
+    position: absolute;left:0;top:0;
+    /*background: #ffffff;*/
+    /*background:url("111.jpg");*/
+    background-size: 900px auto;
+}
+.son{
+    display:none;background:#aaa;
+}
+.son li{
+    background: #595a80;
+    color:#ccc;
+    transition: all 1s ease;
+    line-height: 34px;
+    border-bottom: 1px solid #434343;
+}
+.son li:hover{
+    background: #42435a;
+    color:#fff;
+}
+input{
+    width:20px;
+    height:20px;
+}
+.xp{
+    width:8px;height:8px;border:1px solid #000;
+    position: absolute;left:0;top:0;display: none;
+
+}
+.selectarea{
+    border:1px dotted #000;
+    position: absolute;
+    left:0;top:0;
+    display:none;
+}
+#canvas{
+
+}
+
+
